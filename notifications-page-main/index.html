@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: rgb(244, 246, 247);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: small;
+      font-weight: bold;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .main-container {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 1%;
+      position: relative;
+	    margin-left: 20px;
+	    margin: 50px 200px 50px 400px;
+      width: 600px;
+      padding: 30px 30px 30px 30px;
+	}
+   
+    .mark-container {
+      position: absolute;
+	    margin-left: 490px;
+      top: 30px;
+      color: grey;
+      	   
+	}
+
+    .notification-container {
+	    position: relative;
+      top: 0;
+	    margin-right: 400px;
+      margin: 10px 500px 10px 10;
+      color: rgb(3, 3, 45);
+
+  }
+
+    button {
+      background-color: rgb(2, 57, 109);
+      border-color: rgb(2, 57, 109);
+      border-radius: 5px;
+      width: 35px;
+    }
+
+    .Mark-Webber {
+      padding: 10px 10px 20px 30px;
+      background-color: rgb(245, 246, 247);
+      border-radius: 10px;
+      margin: 30px 0 0 0;
+      width: auto;
+      color: grey;
+      
+    }
+
+    .angela {
+      padding: 10px 10px 20px 30px;
+      background-color: rgb(245, 246, 247);
+      border-radius: 10px;
+      margin: 5px 0 0 0;
+      width: auto;
+      color: grey;
+      
+    }
+
+    .jacob {
+      padding: 10px 10px 20px 30px;
+      background-color: rgb(245, 246, 247);
+      border-radius: 10px;
+      margin: 5px 0 0 0;
+      width: auto;
+      color: grey;
+    }
+
+    .rizky {
+      padding: 10px 10px 20px 30px;
+      border-radius: 10px;
+      margin: 5px 0 0 0;
+      width: auto;
+      color: grey;
+    }
+
+    .middle-container {
+      position: relative;
+      padding: 20px 30px 20px 20px;
+      border: solid;
+      border-width: 1px;
+      border-radius: 4px;
+      margin: 0 20px 30px 85px;
+      color: grey;
+    }
+
+  .kimberly {
+      padding: 10px 10px 20px 30px;
+      border-radius: 10px;
+      margin: 5px 0 0 0;
+      width: auto;
+      color: grey;
+    }
+
+    .nathan {
+      padding: 10px 10px 20px 30px;
+      border-radius: 10px;
+      margin: 5px 0 0 0;
+      width: auto;
+      color: grey;
+    }
+
+    .anna {
+      padding: 10px 10px 20px 30px;
+      border-radius: 10px;
+      margin: 5px 0 0 0;
+      width: auto;
+      color: grey;
+    }
+
+    .mark-img {
+	    width: 40px;
+	    float: left;
+      margin-right: 15px;
+      height: auto;
+    }
+
+    .angela-img {
+      width: 40px;
+	    float: left;
+      margin-right: 15px;
+      height: auto;
+    }
+
+    .jacob-img {
+      width: 40px;
+	    float: left;
+      margin-right: 15px;
+      height: auto;
+    }
+
+    .rizky-img {
+      width: 40px;
+	    float: left;
+      margin-right: 15px;
+      height: auto;
+    }
+
+    .kimberly-img {
+      width: 40px;
+	    float: left;
+      margin-right: 15px;
+      height: auto;
+    }
+
+    .chess-img {
+      width: 40px;
+	    float: right;
+      margin-right: 30px;
+      height: auto;
+      position: relative;
+      bottom: 20px;
+    }
+
+    .nathan-img {
+      width: 40px;
+	    float: left;
+      margin-right: 15px;
+      height: auto;
+    }
+
+    .anna-img {
+      width: 40px;
+	    float: left;
+      margin-right: 15px;
+      height: auto;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main-container">
+
+    <div class="notification-container">
+      <h2>Notifications <button style="color: white; font-family:Arial, Helvetica, sans-serif; font-size:large" >3</button></h2>
+    </div>
+    
+    <div class="mark-container">
+      <h4>Mark all as read</h4>
+    </div>
+    
+    <div class="Mark-Webber">
+      <img class="mark-img" src="/notifications-page-main/assets/images/avatar-mark-webber.png" alt="Mark-Webber-image">
+         <b style="color: black;">Mark Webber </b> reacted to your recent post  <b>My first tournament today!</b> ☀️​​
+            <br>1m ago
+    </div>
+
+    <div class="angela">
+      <img class="angela-img" src="/notifications-page-main/assets/images/avatar-angela-gray.webp" alt="Angela-Gray-image">
+          <b style="color: black;">Angela Gray</b>  followed you ☀️​
+            <br>5m ago
+    </div>
+
+    <div class="jacob">
+      <img class="jacob-img" src="/notifications-page-main/assets/images/avatar-jacob-thompson.png" alt="Jacob-thompson-image">
+          <b style="color: black;">Jacob Thompson</b> has joined your group <b style="color: rgb(2, 57, 109); font-weight: bolder;">Chess Club</b> ☀️​
+            <br>1 day ago
+    </div>
+
+    <div class="rizky">
+      <img class="rizky-img" src="/notifications-page-main/assets/images/avatar-rizky-hasanuddin.png" alt="rizky-hasanuddin-image">
+          <b style="color: black;">Rizky Hasanuddin</b> sent you a private message
+            <br>5 days ago
+    </div>
+    
+    <div class="middle-container" style="color: grey;"> 
+      Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+      I'm already having lots of fun and improving my game.
+    </div>
+    
+    <div class="kimberly">
+      <img class="kimberly-img" src="/notifications-page-main/assets/images/avatar-kimberly-smith.png" alt="kimberly-image">
+          <b style="color: black;">Kimberly Smith</b> commented on your picture
+            <br>1 week ago
+      <img class="chess-img" src="/notifications-page-main/assets/images/image-chess.png" alt="image-chess">
+    </div>
+
+    <div class="nathan">
+      <img class="nathan-img" src="/notifications-page-main/assets/images/avatar-nathan-peterson.png" alt="nathan-peterson-image">
+          <b style="color: black;">Nathan Peterson</b> reacted to your recent post <b style="color: grey;">5 end-game strategies to increase your win rate</b> 
+            <br>2 weeks ago
+    </div>
+
+    <div class="anna">
+      <img class="anna-img" src="/notifications-page-main/assets/images/avatar-anna-kim.png" alt="anna-kim-image">
+          <b style="color: black;">Anna Kim</b> left the group <b style="color: rgb(2, 57, 109); font-weight: bolder;">Chess Club</b>
+            <br>2 weeks ago
+    </div>
+
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
